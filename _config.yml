@@ -6,16 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: UKWA Crawler Test Site
+email: web-archivist@bl.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A static test site, to run web crawlers against.
 baseurl: "/crawl-test-site" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://data.webarchive.org.uk" # the base hostname & protocol for your site
+twitter_username: UKWebArchive
+github_username:  ukwa
 
 # Build settings
 markdown: kramdown
