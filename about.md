@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is a simple test site for running web crawlers against, using [Jekyll](http://jekyllrb.com/) to build HTML from a set of Markdown files and resources.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find the source code for this site at:
+{% include icon-github.html username="ukwa" %} /
+[test-crawl-site](https://github.com/ukwa/crawl-test-site)
 
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
