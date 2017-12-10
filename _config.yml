@@ -10,8 +10,8 @@ title: UKWA Crawler Test Site
 email: web-archivist@bl.uk
 description: > # this means to ignore newlines until "baseurl:"
   A static test site, to run web crawlers against.
-baseurl: "/crawl-test-site" # the subpath of your site, e.g. /blog
-url: "http://data.webarchive.org.uk" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://crawl-test-site.webarchive.org.uk" # the base hostname & protocol for your site
 twitter_username: UKWebArchive
 github_username:  ukwa
 

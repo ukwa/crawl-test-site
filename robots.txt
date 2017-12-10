@@ -3,6 +3,10 @@ layout: null
 ---
 User-agent: *
 Allow: *
+
+User-agent: *
+Disallow: /disallowed-by-robots-txt/
+
 {% for node in site.pages %}{% if node.noindex %}Disallow: {{ node.url }}
 {% endif %}{% endfor %}
 Sitemap: {{ "/sitemap.xml" | prepend: site.baseurl }}

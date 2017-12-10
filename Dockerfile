@@ -6,5 +6,6 @@ COPY . ./
 RUN JEKYLL_ENV=production bundle exec jekyll build --verbose --destination /_site
 
 FROM nginx:1.13.0-alpine
-COPY --from=builder /_site /usr/share/nginx/html/crawl-test-site/
+COPY --from=builder /_site /usr/share/nginx/html
 
+EXPOSE 80
