@@ -15,3 +15,7 @@ And there's this attempt to embed an image that does not exist:
 
 <img src="./going-nowhere-404.png"/>
 
+For comparison purposes, here's an embed that works:
+
+<img src="{{ site.baseurl }}/resources/documents/lorem-ipsum.PDFA1-a.png"/>
+
